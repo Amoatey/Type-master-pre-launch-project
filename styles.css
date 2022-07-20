@@ -122,6 +122,12 @@ body{background-color: white;
     height: 58px;
     width: 175px;
 }
+.rectangle button:hover{
+    background-color: #ff9b62;
+    cursor: pointer;
+
+}
+
 
 .Release{
     /* width:127px; */
