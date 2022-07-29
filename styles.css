@@ -55,10 +55,10 @@ body{background-color: white;
     position: inherit;
 }
 
-.keyboardmaster{
-    /* width: 445px;
-    height: 112px;     */
-}
+/* .keyboardmaster{
+    width: 445px;
+    height: 112px;    
+} */
 
 /* Type Keyboard Master */
 .Typemaster-keyboard p {
@@ -125,9 +125,7 @@ body{background-color: white;
 .rectangle button:hover{
     background-color: #ff9b62;
     cursor: pointer;
-
 }
-
 
 .Release{
     /* width:127px; */
@@ -361,12 +359,7 @@ body{background-color: white;
     color: #7B8BAD;
 }
 
-.footer{
-     /* width: 272px; */
-    height: 26px; 
-    top: 1805px;
-    margin-left: 584px;
-}
+
 
 .Icon-Compatible{
     width: 65px;
@@ -377,7 +370,6 @@ body{background-color: white;
     justify-content: center;
     align-items: center;
 }
-
 
 .Icon-Bluetooth{
     width: 65px;
@@ -409,14 +401,23 @@ body{background-color: white;
     align-items: center;
 }
 
-.footer p{
+ footer p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* font-weight: 500; */
     color: #7B8BAD;
     font-size: 16px;
     line-height: 26px;
     padding-bottom: 39px;
+    text-align: center;
+
 }
+
+footer{
+    /* width: 272px; */
+    /* height: 26px; 
+   top: 1805px;
+   margin-left: 584px; */
+} 
 
  .Group3Copy3 img{
     /* margin-left: -120px;
@@ -444,6 +445,122 @@ body{background-color: white;
     right: -150px;
     /* margin-top: 1239px; */
     top: 29vh;
-
 } 
+
+/* MEDIA QUARRY FOR TABLET SCREEN*/
+
+/* Top Part of Typemaster Pre-Launch Project */
+@media screen and (max-width:768px){
+    body{
+        /* width: 768px;
+        height: 2128px; */
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .Group14{
+        margin-right:1rem;
+        height: 58px;
+        /* margin-top: 40px; */
+        /* margin-right: 1%; */
+        margin-left: 1rem;
+        overflow-x: hidden;
+        /* padding-inline: 5%; */
+        /* position: absolute; */
+    }
+
+     /* .logo img{
+        width: 40px;
+        height: 40px;
+    } */
+
+    .Group14 button{
+        width: 175px;
+        height: 58px;
+        left: 554px;
+    }
+
+    .Group4{
+      margin-left: 3%;
+      top: -3%;
+    }
+
+    .Group3 img{
+        width: 478px;
+        height: 425px;
+        left: 500px;
+        margin-right: 0%;  
+    }
+
+    /* Middle Part of Typemaster Pre-Launch Project */
+    .Group3-Copy2{
+        margin-left: 3%;
+        width: 214px;
+        height: 320px;
+    }
+
+     .Group3-Copy2 img{
+        width: 214px;
+        height: 320px;
+    }
+
+    .Group3Copy img{
+        width: 689px;
+        height: 320px;
+        margin-left: 3%;
+    }
+
+    .Group3-Copy2 {
+        justify-content: space-between;
+    }
+
+    .Group6{
+        width: 689px;
+        height: 108px;
+        flex-direction: row;
+        margin-left: 3%;
+    }
+
+    .Mechanical-wireless p{
+        width: 255px;
+        height: 108px;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top:130px;
+    }
+
+    .The-Typemaster p{
+        margin-left: 40%;
+        width:398px;
+        height: 78px;
+        margin-top: 0px
+    }
+
+    /* Bottom Part of Type master pre launch Project */
+    .Group9{
+        display: grid;
+        grid-template-columns: 50% 50%; 
+        grid-column-gap: 69px;
+        margin-top: 100px;
+        grid-auto-rows: 490px;  
+    }
+    
+    .Highly-Compatible{
+        margin-left: 30px;
+    }
+
+    footer p {
+        text-align:center; 
+    }
+
+    
+
+    
+
+
+
+    
+}
+
+
     
